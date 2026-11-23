@@ -16,8 +16,9 @@ int main()
 
     double resoult;
 
-    switch (c)
-case '*':
+    switch (c) {
+
+        case '*':
     resoult = pomnozi(x,y);
     break;
 case '/':
@@ -29,5 +30,7 @@ case '/':
     case '-':
     resoult = oduzmi(x,y);
     break;
+    }
+
     return 0;
 }
